@@ -23,6 +23,15 @@ section{
     padding-left: 2%;
 }
 
+.half-width p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.half-width h3{
+    color:indigo
+}
+
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(salmon,tomato);
