@@ -13,8 +13,9 @@ h1{
     color: orange;
 }
 
-section{
+.flexiable-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width img{
     border-radius: 50%;
@@ -27,10 +28,6 @@ section{
 .half-width p{
     text-align: justify;
     font-size: 20px;
-}
-
-.half-width h3{
-    color:indigo
 }
 
 .link-button{
@@ -48,7 +45,7 @@ section{
 
 }
 .dream-big{
-    margin-top: 100px;
+   
     background-image: url('images/dream-bg.png');
     background-repeat: no-repeat;
     background-position: right;
@@ -56,3 +53,7 @@ section{
 .dream-big .second-img{
     border-radius: 50%;
 }
+
+/* .title-color{
+    color: orange;
+} */
