@@ -8,6 +8,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 
 .name-title{
     color: orange;
@@ -54,6 +57,41 @@ h1{
     border-radius: 50%;
 }
 
-/* .title-color{
-    color: orange;
-} */
+.experience-area{
+    background-image: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 50px gray;
+    font-size: 19px;
+    border-radius: 10px;
+    /* text-align: justify; */
+    
+}
+
+.experience-area .right-item{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple,tomato);
+    border-image-slice: 1;
+}
+.experience-area .left-item{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    width: 500px;
+    margin:20px auto;
+}
+footer p{
+    text-align: center;
+    background: black;
+    color: royalblue;
+}
